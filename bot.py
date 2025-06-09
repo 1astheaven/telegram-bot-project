@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 REGISTER_NAME, REGISTER_EMAIL, MAIN_MENU, VIEW_BUILDING, VIEW_ASSET, SEARCH_ASSET, VIEW_PROFILE = range(7)
 
 # Токен бота
-TOKEN = '8016146950:AAG2U1xHRcUt3jyzwaHbLJD4rzWkPSx5Mv0'
+TOKEN = 'YOUR_TOKEN'
 
 # Обработчик команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
